@@ -27,7 +27,6 @@ def get_watermark_text(path_in):
     with open(path_in, 'rb') as image_file:
         exif_data = exif.Image(image_file)
         watermark_text_template = '{:.5f} N, {:.5f} E, {}'
-        print(exif_data.gps_longitude_ref)
 
         watermark_text = watermark_text_template.format(
             convert_to_degrees(exif_data.gps_latitude),
