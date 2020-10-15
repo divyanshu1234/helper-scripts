@@ -1,6 +1,10 @@
 """
 To be run using the QGIS Python plugin. Creates rings in the base layer using
 the features defined in the feature layers.
+
+Note:
+	- base_layer should containt a single polygon feature that encloses the
+	  all the features from the feature layers
 """
 
 base_layer_name = 'base_layer'
