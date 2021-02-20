@@ -31,6 +31,9 @@ sudo snap install intellij-idea-community --classic
 echo "Installing Visual Studio Code"
 sudo snap install code --classic
 
+echo "Installing Postman"
+sudo snap install Postman
+
 echo "Installing pip and pip3"
 sudo apt install python-pip -y
 sudo apt install python3-pip -y
