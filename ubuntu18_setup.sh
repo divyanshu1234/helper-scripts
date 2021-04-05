@@ -10,6 +10,9 @@ sudo apt install ubuntu-restricted-extras -y
 echo "Installing Gnome Tweak Tool"
 sudo apt install gnome-tweaks -y
 
+echo "Installing git"
+sudo apt install git-all
+
 echo "Installing Communitheme"
 sudo snap install communitheme
 
@@ -32,7 +35,7 @@ echo "Installing Visual Studio Code"
 sudo snap install code --classic
 
 echo "Installing Postman"
-sudo snap install Postman
+sudo snap install postman
 
 echo "Installing pip and pip3"
 sudo apt install python-pip -y
